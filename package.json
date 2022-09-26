@@ -1,0 +1,20 @@
+{
+  "name": "conexaocombancodedados",
+  "version": "1.0.0",
+  "description": "testando a conexao com banco de dados mysql com Knex",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Sala Barbosa",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1"
+  }
+}
